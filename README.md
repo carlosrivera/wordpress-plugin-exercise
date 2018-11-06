@@ -5,15 +5,15 @@ Description
 -----------
 
 * Build a WordPress plugin from scratch that uses the openweathermap API to display weather info for our office locations around the world.
-* Write the plugin using PHP5 OOP classes & methods. 
-* The plugin should work when activated on WordPress 4.3.
+* Write the plugin using PHP7 OOP classes & methods. 
+* The plugin should work when activated on WordPress 4.8.
 * CSS & aesthetics is not important for the purposes of this exercise, use a default theme like twentyfifteen for page layout
 * Expect to walk us through how you approached building the plugin during your interview. 
 
 You will need
 -------------
 
-* WordPress 4.3 running on your localhost or at a hosted location we can view during your interview.
+* WordPress 4.8 running on your localhost or at a hosted location we can view during your interview.
 * API docs: http://openweathermap.org/current
 * You will need to register for an API key (it's free) http://openweathermap.org/appid#get
 
@@ -40,6 +40,7 @@ Requirements
 Bonus Points
 ------------
 
-For extra credit, make the user facing website toggle between office locations without making the page reload. This would require use of Ajax. 
+* Make the user facing website toggle between office locations without making the page reload. This would require use of Ajax.
+* Package this website into a Docker container, including a preconfigured LAMP stack and the plugin already installed.
 
 
